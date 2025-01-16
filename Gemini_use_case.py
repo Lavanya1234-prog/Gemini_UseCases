@@ -17,7 +17,7 @@ genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 
 def main():
-    st.title("Gemini API Demo")
+    st.title("This is my first streamlit App LETS ENJOY :blue[cool] :sunglasses:")
     
     # Sidebar for use case selection
     use_case = st.sidebar.selectbox("Select Use Case", ["Text Conversation", "Image Analysis", "Audio Analysis", "Video Analysis"])
